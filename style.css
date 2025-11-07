@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+/* .background {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./design/Screenshot\ 2021-09-03\ at\ 10.46\ 1.svg);
+} */
+
+
+
+.wrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #DFDBE5;
+    background-image:
+        radial-gradient(circle at 5% 45%, rgba(12, 12, 12, 0.2) 7px, transparent 8px),
+        radial-gradient(circle at 20% 30%, rgba(12, 12, 12, 0.2) 5px, transparent 6px),
+        radial-gradient(circle at 70% 40%, rgba(12, 12, 12, 0.1) 8px, transparent 9px),
+        radial-gradient(circle at 40% 80%, rgba(12, 12, 12, 0.15) 10px, transparent 11px),
+        radial-gradient(circle at 80% 70%, rgba(12, 12, 12, 0.25) 6px, transparent 7px);
+    background-size: 
+        150px 150px;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdbe585;
+    box-shadow: 
+        3px 0px 5px -4px black,
+        0px 5px 5px -4px black, 
+        -3px 0px 5px -4px black,
+        0px -1px 5px -4px black;
+    border-radius: 10px;
+    height: fit-content;
+    width: 450px;
+    gap: 10px;
+    padding: 10px 10px 7px 10px;
+}
+
+.quote-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 80%;
+   gap: 10px;
+   /* border-bottom: #364BA7 solid 1px; */
+}
+
+.quote-container > img {
+    width: 100px;
+    
+}
+
+.quote {
+    color: #364BA7;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.author {
+    width: 80%;
+    padding-top: 10px;
+    text-align: center;
+    color: #F583A7;
+    font-family: "Roboto", sans-serif;
+    border-top: #364BA7 solid 1px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.twitter-button {
+    width: 40px;
+    height: 40px;
+    background: url(./design/twiiter.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 7px;
+    border-style: none;
+}
+
+.quote-button {
+    background-color: #364BA7;
+    color: #F583A7;
+    border-style: none;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
