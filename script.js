@@ -6,16 +6,16 @@ const quoteBtn = document.querySelector('.quote-button')
 
 console.dir(quoteParagr)
 
-// quoteBtn.addEventListener('click', async (e) => {
-//    try {
-//    const paragrValue = quoteParagr.innerText
-//    const randQuote = await axios.get('https://quoterism.com/api/quotes/random')
-//    console.log(randQuote)
-//    } catch (e) {
-//       console.log('ERROR:', e)
-//    }
+quoteBtn.addEventListener('click', async (e) => {
+   try {
+   const paragrValue = quoteParagr.innerText
+   const randQuote = await axios.get('https://quoterism.com/api/quotes/random')
+   console.log(randQuote)
+   } catch (e) {
+      console.log('ERROR:', e)
+   }
    
-// })
+})
 
 
 
@@ -27,12 +27,13 @@ console.dir(quoteParagr)
 //   }
 // }
 
-const api_url ="https://zenquotes.io/api/quotes/";
+// const api_url ="https://zenquotes.io/api/quotes/";
 
-async function getapi(url)
-{
-  const response = await fetch(url);
-  var data = await response.json();
-  console.log(data);
-}
+// async function getapi(url)
+// {
+//   const response = await fetch(url);
+//   var data = await response.json();
+//   console.log(data);
+// }
+
 
