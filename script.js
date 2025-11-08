@@ -20,7 +20,3 @@ quoteBtn.addEventListener('click', async (e) => {
    }
    
 })
-
-twitterBtn.addEventListener('click', (e) => {
-   
-})

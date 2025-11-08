@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-/* write your CSS here */
-
-/* .background {
-    min-width: 100vw;
-    min-height: 100vh;
-    background-image: url(./design/Screenshot\ 2021-09-03\ at\ 10.46\ 1.svg);
-} */
-
-
-
 .wrapper {
     min-width: 100vw;
     min-height: 100vh;
@@ -56,7 +46,6 @@
    justify-content: center;
    width: 80%;
    gap: 10px;
-   /* border-bottom: #364BA7 solid 1px; */
 }
 
 .quote-container > img {
@@ -135,3 +124,28 @@
     transform: rotate(360deg);
 } */
 
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .window-div {
+        width: 90%;
+    }
+
+    .quote-container > img {
+        width: 85px;
+    }
+
+    .quote {
+        font-size: 1.2em;
+    }
+
+    .author-box{
+        font-size: 0.85em;
+    }
+
+    .quote-button {
+        width: 90px;
+        height: 30px;
+        font-size: 0.9em;
+    }
+
+}
