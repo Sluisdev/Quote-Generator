@@ -72,7 +72,7 @@
     text-align: center;
 }
 
-.author {
+.author-box {
     width: 80%;
     padding-top: 10px;
     text-align: center;
@@ -88,13 +88,15 @@
 }
 
 .twitter-button {
-    width: 40px;
+    width: 45px;
     height: 40px;
-    background: url(./design/twiiter.png);
+    background: url(./design/instagram-svgrepo-com.svg);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 7px;
     border-style: none;
+    transition: 0.5s linear;
 }
 
 .quote-button {
@@ -108,5 +110,27 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     border-radius: 5px;
+    transition: 0.1s linear;
+}
+
+.quote-button:hover {
+   box-shadow: 
+    1px 0px 0px 0px #151e45,
+    -1px 0px 0px 0px #151e45,
+    0px 3px 2px 2px #151e45,
+    0px -1px 0px 0px #151e45;
+}
+
+.quote-button:active {
+    transition: initial;
+    box-shadow: 
+    0px 0px 0px 0px #292e44,
+    0px 0px 0px 0px #292e44,
+    0px 2px 1px 1px #595a61,
+    0px 0px 0px 0px #292e44;
+}
+
+.twitter-button:hover {
+    transform: rotate(360deg);
 }
 
