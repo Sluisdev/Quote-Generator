@@ -46,7 +46,7 @@
     height: fit-content;
     width: 450px;
     gap: 10px;
-    padding: 10px 10px 7px 10px;
+    padding: 10px 10px 8px 10px;
 }
 
 .quote-container {
@@ -83,8 +83,8 @@
 
 .buttons {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .twitter-button {
@@ -115,22 +115,23 @@
 
 .quote-button:hover {
    box-shadow: 
-    1px 0px 0px 0px #151e45,
-    -1px 0px 0px 0px #151e45,
-    0px 3px 2px 2px #151e45,
-    0px -1px 0px 0px #151e45;
+    3px 0px 3px 0px #151e45,
+    0px 0px 0px 0px #151e45,
+    0px 3px 3px 0px #151e45,
+    0px 0px 0px 0px #151e45;
 }
 
 .quote-button:active {
     transition: initial;
+    background-color: #2a3b82;
     box-shadow: 
+    2px 0px 2px 0px #595a61,
     0px 0px 0px 0px #292e44,
-    0px 0px 0px 0px #292e44,
-    0px 2px 1px 1px #595a61,
+    0px 2px 2px 0px #595a61,
     0px 0px 0px 0px #292e44;
 }
 
-.twitter-button:hover {
+/* .twitter-button:hover {
     transform: rotate(360deg);
-}
+} */
 

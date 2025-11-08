@@ -21,6 +21,6 @@ quoteBtn.addEventListener('click', async (e) => {
    
 })
 
-// twitterBtn.addEventListener('click', (e) => {
-
-// })
+twitterBtn.addEventListener('click', (e) => {
+   
+})
